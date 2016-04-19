@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="HomePageHeaderCollectionViewCell1">
+            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9uu-DL-ADO">
+                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="9uu-DL-ADO" secondAttribute="bottom" id="6BJ-zH-W5H"/>
+                <constraint firstItem="9uu-DL-ADO" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="70i-v3-ahA"/>
+                <constraint firstItem="9uu-DL-ADO" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="nsi-OA-2BE"/>
+                <constraint firstAttribute="trailing" secondItem="9uu-DL-ADO" secondAttribute="trailing" id="qzc-wt-ycO"/>
+            </constraints>
+            <connections>
+                <outlet property="imageView" destination="9uu-DL-ADO" id="Rhe-Yw-j2P"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+</document>
